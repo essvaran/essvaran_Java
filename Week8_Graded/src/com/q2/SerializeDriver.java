@@ -72,16 +72,19 @@ public class SerializeDriver {
 		Consumer c3 = new Consumer(obj3);
 
 		c1.start();
+		Thread.sleep(1000);
 		p1.start();
 		
 		Thread.sleep(2000);
 		
 		c2.start();
+		Thread.sleep(1000);
 		p2.start();
 		
 		Thread.sleep(2000);
 		
 		c3.start();
+		Thread.sleep(1000);
 		p3.start();
 
 	}
